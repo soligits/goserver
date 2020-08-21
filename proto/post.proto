@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option go_package = "goserver/post";
+
+message Post {
+    string body = 1;
+}
